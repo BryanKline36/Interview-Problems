@@ -17,12 +17,10 @@ class Solution
         int counter, intSize = sizeof(int) * 8, bitPosition = 0X01;
         int maskA, maskB, sum, carry = 0, result = 0;
         
-        
         for(counter = 0; (counter < intSize); counter++)
         {
             maskA = a & bitPosition;
             maskB = b & bitPosition;
-            
             
             sum = maskA ^ maskB;
             
@@ -38,7 +36,6 @@ class Solution
                 
             result |= sum;
             bitPosition <<= 1;
-            
         }
         
         return result;
