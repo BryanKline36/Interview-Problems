@@ -4,8 +4,6 @@ Given a positive integer N, find and return the longest distance between two con
 
 If there aren't two consecutive 1's, return 0.
 
- 
-
 Example 1:
 
 Input: 22
@@ -38,7 +36,6 @@ Output: 0
 Explanation: 
 8 in binary is 0b1000.
 There aren't any consecutive pairs of 1's in the binary representation of 8, so we return 0.
-
 
 Note:
 
