@@ -13,7 +13,6 @@ Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2.
 
 class Solution 
 {
-
     public:
     
     int addDigits(int num) 
