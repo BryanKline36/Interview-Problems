@@ -44,7 +44,6 @@ bool compareNodeData(const NodeData& left, const NodeData& right)
 
 class Solution 
 {
-    
     public:
     
     vector<double> averageOfLevels(TreeNode* root) 
