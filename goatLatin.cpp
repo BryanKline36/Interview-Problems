@@ -31,7 +31,7 @@ Notes:
 
     S contains only uppercase, lowercase and spaces. Exactly one space between each word.
     1 <= S.length <= 150.
-
+    
 */
 
 class Solution 
