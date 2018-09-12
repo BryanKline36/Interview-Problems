@@ -11,7 +11,7 @@ There are three different kinds of candies (1, 2 and 3), and two candies for eac
 Optimal distribution: The sister has candies [1,2,3] and the brother has candies [1,2,3], too. 
 The sister has three different kinds of candies. 
 
-Example 2:
+Example 2: 
 
 Input: candies = [1,1,2,3]
 Output: 2
