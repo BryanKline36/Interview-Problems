@@ -1,7 +1,0 @@
-
-class GridNode
-{
-
-  public:
-
-};
