@@ -5,6 +5,10 @@ class Grid
     Grid();
     ~Grid();
   
+  private:
+  
+    GridNode*** globalGrid;
+  
 };
 
 
