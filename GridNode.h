@@ -1,3 +1,12 @@
+class Grid
+{
+  public:
+  
+    Grid();
+    ~Grid();
+  
+};
+
 
 class GridNode
 {
@@ -9,5 +18,4 @@ class GridNode
   private:
   
     GrideNode*** grid;
-  
 };
