@@ -3,6 +3,7 @@ class Grid
   public:
   
     Grid();
+    Grid(int dimensions, int depth);
     ~Grid();
   
   private:
