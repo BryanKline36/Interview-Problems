@@ -1,3 +1,15 @@
+class GridNode
+{
+  public:
+  
+    GridNode();
+    ~GridNode();
+  
+  private:
+  
+    GrideNode*** grid;
+};
+
 class Grid
 {
   public:
@@ -9,18 +21,7 @@ class Grid
   private:
   
     GridNode*** globalGrid;
+    int dimension;
+    int depth;
   
-};
-
-
-class GridNode
-{
-  public:
-  
-    GridNode();
-    ~GridNode();
-  
-  private:
-  
-    GrideNode*** grid;
 };
