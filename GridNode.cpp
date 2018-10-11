@@ -20,7 +20,10 @@ GridNode:: ~GridNode()
 
 Grid:: Grid()
 {
-
+  dimension = 0;
+  depth = 0;
+  
+  globalGrid = NULL;
 }
   
 Grid:: Grid(int dimensions, int depth)
