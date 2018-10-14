@@ -1,7 +1,7 @@
 
 GridNode:: GridNode()
 {
-
+  grid = NULL;
 }
 
 GridNode:: ~GridNode()
