@@ -15,7 +15,7 @@ class Grid
   public:
   
     Grid();
-    Grid(int dimensions, int depth);
+    Grid(int dimensions, int totalDepth);
     ~Grid();
   
   private:
