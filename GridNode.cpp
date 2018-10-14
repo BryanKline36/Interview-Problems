@@ -26,9 +26,10 @@ Grid:: Grid()
   globalGrid = NULL;
 }
   
-Grid:: Grid(int dimensions, int depth)
+Grid:: Grid(int dimensions, int totalDepth)
 {
-
+  dimension = dimensions;
+  depth = totalDepth;
 }
   
 Grid:: ~Grid()
